@@ -1,0 +1,47 @@
+@import "../abstract/variables";
+
+.navbar-collapse {
+  ul {
+    a {
+      color: $color3;
+      border-bottom: 2px solid transparent;
+      font-weight: bold;
+      &:hover {
+        color: $color2;
+        border-bottom: 2px solid $color2;
+      }
+    }
+  }
+}
+
+.carousel-item {
+  img {
+    animation: animateBg forwards 8s ease-in;
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    @keyframes animateBg {
+      0% {
+        transform: scale(1.2, 1.2);
+      }
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+  }
+}
+
+.carousel_caption {
+  text-align: left;
+  h5 {
+    font-size: $Fontheight / 2;
+    font-weight: bold;
+  }
+  p {
+    font-size: $Fontheight / 3;
+    margin: 3rem 0;
+  }
+  button {
+    text-align: center;
+  }
+}

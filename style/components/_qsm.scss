@@ -1,0 +1,22 @@
+@import "../abstract/variables";
+
+#qsm{
+      background-image: url(../../assets/parede\ 1.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 50vh;
+      .qsm__container{
+            height: 50vh;
+            .qsm__content{
+                  width: 50%;
+                  h1{
+                        font-weight: bold;
+                        margin-bottom: 3rem;
+                  }
+                  p{
+
+                  }
+            }
+      }
+      
+}
